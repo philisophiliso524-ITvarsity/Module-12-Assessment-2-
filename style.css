@@ -1,0 +1,190 @@
+body{
+    background-color: cadetblue;
+    text-align: center;
+    
+}
+#body h1{
+    font-family: cursive;
+    color: darkslategray;
+    font-size: 5vw;
+    
+}
+#table{
+    width: 100%;
+    background-color: cadetblue;
+    padding: 35px;
+    margin: auto;
+    
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+    
+}
+
+#table td{
+    border-radius: 10px;
+    padding: 8px; 
+    box-shadow: 2px 8px 16px rgba(5,3,5,3)
+}
+
+#table tr:nth-child(even) {
+    background-color:lightgreen;
+}
+
+#table h5{
+    font-family: cursive;
+    color: black;
+    font-size: 3vw;
+    
+}
+#editForm{
+    width: 500px;
+    margin: 3rem auto;
+    border-radius: 10px;
+    border: 3px solid white;
+    padding: 45px;
+    color: white;
+    box-shadow: 0 8px 16px rgba(0,0,0,3); 
+}
+
+#editForm h1{
+   color: darkslategrey;
+    text-transform: uppercase;
+    font-family: cursive;
+    
+}
+
+
+#editForm label{
+    color: white;
+    font-family: cursive;
+    display: block;
+    height: 30px;
+    margin: 5px 0 2px 0;
+    padding: 0 8px;
+    
+}
+#editForm button{
+    border-radius: 8px;
+    background-color: greenyellow;
+    color: black;
+    width: 120px;
+    height: 34px;
+}
+
+#editForm input{
+    width: 75%;
+    color: black;
+    font-family: sans-serif;
+    height: 30px;
+    margin: auto;
+}
+
+#submitApiKey{
+    margin: 50%;
+    transform: translateX(-50%);
+    width: 130px;
+    height: 40px;
+    border-bottom: darkgray;
+    outline: none;
+    background: green;
+    cursor: pointer;
+    color: white;
+    border-radius: 8px;
+    padding-bottom:1.3rem;
+}
+
+#buttonSection{
+    width: 100%;
+    padding-bottom: 3rem;
+    
+}
+
+#homeLink{
+    border-radius: 8px;
+    background-color: aqua;
+    width: 120px;
+    height: 34px;
+    margin: 3rem;
+}
+
+#editContact{
+    border-radius: 8px;
+    color: white;
+    background-color:green;
+    width: 120px;
+    height: 34px;
+}
+
+#deleteContact{
+    border-radius: 8px;
+    color: white;
+    background-color: red;
+    width: 120px;
+    height: 34px;
+}
+
+#refresh{
+    border-radius: 8px;
+    color: black;
+    text-transform: uppercase;
+    background-color:  lightsalmon;
+    width: 130px;
+    height: 40px;
+    box-shadow: 0 8px 16px rgba(0,0,0,5);
+    margin: 3rem;
+}
+
+#addContact{
+    border-radius: 8px;
+    color: black;
+    text-transform: uppercase;
+    background-color: lightcoral;
+    width: 130px;
+    height: 40px;
+    box-shadow: 0 6px 14px rgba(0,0,0,4);
+    margin-bottom: 3rem
+        
+}
+
+#avatarLabel{
+    width: 95%;
+    background-color: cadetblue;
+    font-family: sans-serif;
+    text-align: center;
+    color: black;
+}
+
+#avatar {
+    padding: 45px;
+    background-color: cadetblue;
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+}
+
+
+
+
+@media (min-width:1200px) {
+    .table{
+        margin-top: 10rem
+    }
+}
+
+@media (min-width:540px) {
+    .Form{
+        display: none;
+    }
+}
+ 
+
+
+
+
+
+
+
+
+
+
